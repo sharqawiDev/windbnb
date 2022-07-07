@@ -39,12 +39,10 @@
             margin-left: auto;
             display: flex;
             align-items: baseline;
-            position: relative;
 
             svg {
-                position: absolute;
-                right: 25px;
-                top: 1.5px;
+                align-self: stretch;
+                margin-right: 4px;
             }
         }
     }
