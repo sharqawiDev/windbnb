@@ -1,3 +1,24 @@
 .container {
     padding: 30px;
+    .stays-title {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h3 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 14px;
+            color: #4f4f4f;
+        }
+    }
+
+    .cards-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
